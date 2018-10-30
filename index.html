@@ -80,7 +80,7 @@
         socket.emit('new user', $username.val(), function(data){
           if (data){
             $userFormArea.hide();
-            $message
+            $messageArea.show();
           }
         });
         $username.val('');
